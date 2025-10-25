@@ -1,0 +1,72 @@
+╔══════════════════════════════════════════════════════════╗
+║     SKELETON LIZARD FOLLOWER - QUICK START GUIDE         ║
+╚══════════════════════════════════════════════════════════╝
+
+📁 FILES INCLUDED:
+├── lizard_follower.py      - Main Python application
+├── run_lizard.bat          - Easy run (auto-installs dependencies)
+├── build_executable.bat    - Build standalone .exe file
+├── quick_build.bat         - Fast .exe builder
+└── README.md               - Full documentation
+
+═══════════════════════════════════════════════════════════
+
+🚀 QUICKEST WAY TO START:
+
+   1. Double-click: run_lizard.bat
+   2. Wait for it to start
+   3. Move your mouse to control the lizard!
+
+═══════════════════════════════════════════════════════════
+
+📦 TO CREATE EXECUTABLE (.exe):
+
+   Option A: Double-click: build_executable.bat
+   
+   Option B: Double-click: quick_build.bat
+   
+   Then find: dist\LizardFollower.exe
+   
+   ⚠️ Note: Building takes 2-3 minutes
+   ⚠️ The .exe will be about 10-15 MB
+
+═══════════════════════════════════════════════════════════
+
+🎮 CONTROLS:
+   • Mouse Movement = Control skeleton lizard
+   • F11 = Toggle Fullscreen
+   • ESC = Exit fullscreen or application
+   • Close Window = Exit
+
+═══════════════════════════════════════════════════════════
+
+✨ FEATURES:
+   ✓ Skeleton-based lizard with visible bones
+   ✓ 8-segment articulated spine
+   ✓ 6 jointed legs with realistic movement
+   ✓ Ribs, vertebrae, and skull structure
+   ✓ Smooth mouse following
+   ✓ Rainbow color changing
+   ✓ Black background
+   ✓ Fullscreen support (F11)
+   ✓ Low CPU usage (~5%)
+   ✓ 60 FPS animation
+
+═══════════════════════════════════════════════════════════
+
+❓ TROUBLESHOOTING:
+
+   Problem: "Python not found"
+   Solution: Install Python from python.org
+
+   Problem: Slow performance
+   Solution: Close other applications
+
+   Problem: .exe build fails
+   Solution: Run as administrator
+
+═══════════════════════════════════════════════════════════
+
+📧 For more info, check README.md
+
+═══════════════════════════════════════════════════════════
