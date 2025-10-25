@@ -101,4 +101,4 @@ quick_build.bat
 Free to use and modify
 
 ## Author
-Created with Python and Pygame
+aliqqqxoox2002x@gmail.com/alpha
