@@ -44,8 +44,14 @@ echo Building executable file...
 echo This may take a few minutes...
 echo.
 
-REM Build the executable
-pyinstaller --onefile --windowed --name="LizardFollower" --icon=NONE lizard_follower.py
+REM Build the executable with icon
+if exist lizard_icon.ico (
+    echo Building with lizard icon...
+    pyinstaller --onefile --windowed --name="LizardFollower" --icon=lizard_icon.ico --add-data "lizard_icon.ico;." lizard_follower.py
+) else (
+    echo Icon not found, building without icon...
+    pyinstaller --onefile --windowed --name="LizardFollower" lizard_follower.py
+)
 
 if errorlevel 1 (
     echo.

@@ -21,10 +21,21 @@ A lightweight Python application featuring a skeleton-based 6-legged lizard with
 
 ## Installation
 
+### Easy Setup (Recommended)
+1. Double-click `setup.bat`
+   - Installs all dependencies
+   - Creates the lizard icon automatically
+   - Sets up everything you need
+
+### Manual Setup
 1. Install Python (if not already installed)
-2. Install Pygame:
+2. Install required packages:
 ```bash
-pip install pygame
+pip install pygame Pillow
+```
+3. Create the icon:
+```bash
+python create_icon.py
 ```
 
 ## Usage

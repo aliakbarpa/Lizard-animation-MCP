@@ -4,10 +4,20 @@
 
 📁 FILES INCLUDED:
 ├── lizard_follower.py      - Main Python application
+├── create_icon.py          - Icon generator script
+├── setup.bat               - Complete setup (RECOMMENDED)
 ├── run_lizard.bat          - Easy run (auto-installs dependencies)
 ├── build_executable.bat    - Build standalone .exe file
 ├── quick_build.bat         - Fast .exe builder
 └── README.md               - Full documentation
+
+═══════════════════════════════════════════════════════════
+
+🎯 FIRST TIME SETUP:
+
+   1. Double-click: setup.bat
+   2. Wait for setup to complete
+   3. Icon will be created automatically!
 
 ═══════════════════════════════════════════════════════════
 
